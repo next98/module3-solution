@@ -1,14 +1,21 @@
-.navbar {
+.navbar-grey {
   background-color: grey;
-  width: 100%;
- }
-h2 {
-  text-align: center;
-  font-family: Arial, sans-serif;
-  padding: 5%;
 }
-.container {
+
+.text {
   background-color: grey;
-  padding-left: 2%;
-  padding-right: 2%;
-    }
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  
+}
+.col-md-3 {
+  display: inline-block;
+  margin-left: 4%;
+}
+
+  }
+.right {
+  float: right;
+}
+@media 
