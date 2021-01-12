@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" href="css/mystyle.css">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
@@ -13,23 +13,22 @@
   <body>
     <nav class="navbar navbar-grey">
   <a class="navbar-brand" href="#">FCC, FOOD</a>
-  <button class="navbar-toggler navbar-light d-sm-none" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler navbar-light d-sm-none" type="button" data-toggle="collapse" data-target="#navbarDropdown" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-       <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
-      <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-            <li><a class="dropdown-item" href="#Chicken">Chicken</a></li>
-            <li><a class="dropdown-item" href="#Beef">Beef</a></li>
-            <li><a class="dropdown-item" href="#Sushi">Sushi</a></li>
-          </ul>
-        </li>
-      </ul>
-    </div>
+     <div class="collapse navbar-collapse" id="navbarDropdown">
+    <ul class="navbar-nav mb-auto">
+      <li class="nav-item active">
+        <a class="nav-link dropdown" href="#Chicken">Chicken <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link dropdown" href="#Beef">Beef</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link dropdown" href="#Sushi">Sushi</a>
+      </li>
+    </ul>
+      </div>
     
 </nav>
     <h1 class="text-center">Our Menu</h1>
@@ -49,6 +48,9 @@
     </div>
      <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
